@@ -26,6 +26,10 @@ const Login = () => {
     if (password === "ZenTradesTest@123") {
       navigate("/dashboard");
     }
+    else
+    {
+      alert("Invalid Credentials");
+    }
   };
 
   return (
